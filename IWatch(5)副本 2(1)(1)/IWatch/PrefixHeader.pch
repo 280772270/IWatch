@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  IWatch
+//
+//  Created by 陈萍on 15/11/5.
+//  Copyright © 2015年 陈萍. All rights reserved.
+//
+
+#ifndef IWLeftMenu_PrefixHeader_pch
+#define IWLeftMenu_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+IWExtension.h"
+#import "UIImage+IWExtension.h"
+#import "UIBarButtonItem+IWExtension.h"
+#import "IWLeftMenu.h"
+#import "IWatchNetHelper.h"
+#import "UIImageView+WebCache.h"
+#import "dataBaseHelper.h"
+#import "ZZVideoList.h"
+#import "ZZConsumption.h"
+#import "ZZBaseClass.h"
+#import "AFNetworking.h"
+#define screenFrame [UIScreen mainScreen].bounds
+// 颜色
+
+#define HMColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HMColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+// 随机色
+//#define HMRandomColor HMColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#endif /* PrefixHeader_pch */
